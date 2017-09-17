@@ -34,3 +34,5 @@ def standardize_data(values):
     number indicates a value lower than the mean.)
     '''
     return (values - values.mean()) / values.std()
+
+print(standardize_data(employment))
